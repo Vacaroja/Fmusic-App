@@ -10,3 +10,9 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+-keep class com.ccc.fmusic.ApiService {*;}
+-keep class com.ccc.fmusic.AppPreferences {*;}
+-keepattributes SourceFile,LineNumberTable
+-keep class retrofit2.** {*;}
+-keep interface * {*;}
